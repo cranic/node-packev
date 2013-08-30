@@ -1,0 +1,30 @@
+{
+  "name": "packev",
+  "version": "0.0.0",
+  "description": "Run an event when a NPM package have been updated/created.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cranic/node-packev.git"
+  },
+  "keywords": [
+    "package",
+    "event",
+    "npm",
+    "created",
+    "updated",
+    "nodebr"
+  ],
+  "author": "Alan Hoffmeister <contato@cranic.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cranic/node-packev/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "lodash": "~1.3.1"
+  }
+}
